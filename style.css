@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+} 
+
+html {
+	height: 100vh;
+}
+
+body {
+	background: url(bcg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+h1 {
+	margin: 25px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+#app {
+	width: 60%;
+	height: 70vh;
+	background-color: snow;
+	margin: 0 auto;
+}
+
+input {
+	width: 92%;
+	height: 40px;
+}
+
+button {
+	width: 8%;
+	height: 40px;
+}
+
+#weather {
+	font-size: 22px;
+	text-align: center;
+	padding: 30px;
+}
+
+@media(max-width:678px){
+	app {
+		height: 40vh;
+	}
+	
+	input {
+		height: 50px;
+		width: 100%;
+	}
+	
+	button {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+
+
